@@ -6,8 +6,8 @@ From SNS, email notifications are sent to all the subscribers.
 The event-driven architecture leveraging S3, Lambda, and SNS provides a scalable, flexible, and reliable solution for sending automated email notifications to customers.
 It allows for efficient handling of events, processing of data, and customizable notification delivery, all while benefiting from the inherent features and capabilities of AWS services.
 
-
 import boto3
+
 mysns = boto3.client("sns")
 
 def lw(x, y):
